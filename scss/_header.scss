@@ -1,3 +1,7 @@
+$green: #43b581;
+$yellow: #faa61a;
+$red: #f04747;
+
 .entity-content__description {
   .content {
     h1 {
@@ -22,24 +26,24 @@
     }
 
     .h1-green {
-      color: #43b581 !important;
+      color: $green !important;
     }
     .h1-green:after {
-      background-color: #43b581;
+      background-color: $green;
     }
 
     .h1-yellow {
-      color: #faa61a !important;
+      color: $yellow !important;
     }
     .h1-yellow:after {
-      background-color: #faa61a;
+      background-color: $yellow;
     }
 
     .h1-red {
-      color: #f04747 !important;
+      color: $red !important;
     }
     .h1-red:after {
-      background-color: #f04747;
+      background-color: $red;
     }
   }
 }
