@@ -1,0 +1,16 @@
+.entity-content__description {
+  .content {
+    span {
+      cursor: pointer;
+      border-radius: 3px;
+      padding: 2px;
+      color: #7289da !important;
+      background: rgba(114, 137, 218, 0.1) !important;
+    }
+
+    span:hover {
+      color: #fff !important;
+      background: #7289da !important;
+    }
+  }
+}
