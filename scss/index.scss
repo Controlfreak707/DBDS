@@ -24,8 +24,8 @@ $border-radius: 8px;
       border-radius: $border-radius;
     }
   }
+}
 
-  ::after {
-    content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
-  }
+.entity-content__description::after {
+  content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
 }
