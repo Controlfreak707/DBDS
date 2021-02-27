@@ -3,19 +3,15 @@
   border-radius: 8px !important;
   background: #23272a !important;
 }
-.entity-content__description .content {
-  background: #2c2f33 !important;
-  box-shadow: 0 !important;
-}
 .entity-content__description .content * {
   transition: 0.1s;
   color: white !important;
 }
-.entity-content__description .content div > p > img,
+.entity-content__description .content p > img,
 .entity-content__description .content .entity-header__image {
   border-radius: 8px;
 }
-.entity-content__description .content div > h1 {
+.entity-content__description .content h1 {
   margin-top: 20px !important;
   font-weight: 700;
   line-height: 20px;
@@ -28,7 +24,7 @@
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
 }
-.entity-content__description .content div > h1:after {
+.entity-content__description .content h1:after {
   content: "";
   height: 1px;
   flex: 1 1 auto;
@@ -53,7 +49,7 @@
 .entity-content__description .content .h1-red:after {
   background-color: #f04747;
 }
-.entity-content__description .content div > p > code {
+.entity-content__description .content p > code {
   padding: 0.2em;
   margin: 0.2em 0;
   border-radius: 3px;
@@ -63,14 +59,14 @@
   color: #dcddde !important;
   border: none;
 }
-.entity-content__description .content div > p > span {
+.entity-content__description .content p > span {
   cursor: pointer;
   border-radius: 3px;
   padding: 2px;
   color: #7289da !important;
   background: rgba(114, 137, 218, 0.1) !important;
 }
-.entity-content__description .content div > p > span:hover {
+.entity-content__description .content p > span:hover {
   color: #fff !important;
   background: #7289da !important;
 }
