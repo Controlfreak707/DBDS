@@ -1,2 +1,35 @@
 # DBDS
 Discord Bot Description Styling - Makes my bot descriptions look pretty
+
+## What is this thing?
+DBDS (or Discord Bot Description Styling) is a bit of CSS that I use to make the descriptions of my Discord bots look similair to the UI of Discord itself.
+
+## What does it look like?
+As of now, this:
+![Preview](Preview.png)
+
+## How can I use DBDS?
+Firstly, you need to include this at the top of your bot description:
+```html
+<style>
+    @import url('https://raw.githack.com/Controlfreak707/DBDS/main/css/index.css');
+</style>
+```
+
+After that, you can style your description like so:
+
+### Headers
+```html
+<h1 class="h1-{colour}">Whatever you put here will be capitalized.</h1>
+```
+Replace `{colour}` with `green|yellow|red`.
+
+### Mentions
+```html
+<span>@Mention</span>
+```
+
+### Inline code
+```html
+<code>var message = "Hello World!";</code>
+```
