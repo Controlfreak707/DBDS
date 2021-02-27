@@ -1,0 +1,39 @@
+.entity-content__description {
+  .content {
+    .alert-box {
+      margin: 20px 0;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+
+      blockquote {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-family: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+      }
+    }
+
+    .alert-box.info {
+      background: #7289da1a;
+      border: 2px solid #7289da80;
+    }
+
+    .alert-box.warn {
+      background: #faa61a1a;
+      border: 2px solid #faa61a80;
+    }
+
+    .alert-box.danger {
+      background: #f047471a;
+      border: 2px solid #f0474780;
+    }
+  }
+}

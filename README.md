@@ -22,7 +22,17 @@ After that, you can style your description like so:
 ```html
 <h1 class="h1-{colour}">Whatever you put here will be capitalized.</h1>
 ```
-Replace `{colour}` with `green|yellow|red`.
+Replace `{colour}` with `blurple|green|yellow|red`.
+
+### Alert Boxes
+```html
+<div class="alert-box {type}">
+    <blockquote>
+        Your text goes here.
+    </blockquote>
+</div>
+```
+Replace `{type}` with `info|warn|danger`.
 
 ### Mentions
 ```html
