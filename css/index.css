@@ -77,5 +77,8 @@
 .entity-content__description .content img {
   border-radius: 8px;
 }
+.entity-content__description ::after {
+  content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
+}
 
 /*# sourceMappingURL=index.css.map */
