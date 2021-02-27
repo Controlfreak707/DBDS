@@ -2,7 +2,7 @@
 Discord Bot Description Styling - Makes my bot descriptions look pretty
 
 ## What is this thing?
-DBDS (or Discord Bot Description Styling) is a bit of CSS that I use to make the descriptions of my Discord bots look similair to the UI of Discord itself.
+DBDS (or Discord Bot Description Styling) is a bit of CSS that I use to make the descriptions of my Discord bots look similair to the UI of Discord itself. (Made for top.gg, not tested on other platforms.)
 
 ## What does it look like?
 As of now, this:
