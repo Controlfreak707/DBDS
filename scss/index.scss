@@ -1,7 +1,12 @@
+.entity-header__image {
+  border-radius: 8px;
+}
+
 .entity-content__description {
   padding: 25px !important;
   border-radius: 8px !important;
   background: #23272a !important;
+  border: none !important;
 
   .content {
     * {
@@ -9,8 +14,7 @@
       color: white !important;
     }
 
-    p > img,
-    .entity-header__image {
+    img {
       border-radius: 8px;
     }
 
@@ -60,7 +64,7 @@
       background-color: #f04747;
     }
 
-    p > code {
+    code {
       padding: 0.2em;
       margin: 0.2em 0;
       border-radius: 3px;
@@ -73,7 +77,7 @@
       border: none;
     }
 
-    p > span {
+    span {
       cursor: pointer;
       border-radius: 3px;
       padding: 2px;
@@ -81,7 +85,7 @@
       background: rgba(114, 137, 218, 0.1) !important;
     }
 
-    p > span:hover {
+    span:hover {
       color: #fff !important;
       background: #7289da !important;
     }

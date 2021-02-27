@@ -1,14 +1,18 @@
+.entity-header__image {
+  border-radius: 8px;
+}
+
 .entity-content__description {
   padding: 25px !important;
   border-radius: 8px !important;
   background: #23272a !important;
+  border: none !important;
 }
 .entity-content__description .content * {
   transition: 0.1s;
   color: white !important;
 }
-.entity-content__description .content p > img,
-.entity-content__description .content .entity-header__image {
+.entity-content__description .content img {
   border-radius: 8px;
 }
 .entity-content__description .content h1 {
@@ -49,7 +53,7 @@
 .entity-content__description .content .h1-red:after {
   background-color: #f04747;
 }
-.entity-content__description .content p > code {
+.entity-content__description .content code {
   padding: 0.2em;
   margin: 0.2em 0;
   border-radius: 3px;
@@ -59,14 +63,14 @@
   color: #dcddde !important;
   border: none;
 }
-.entity-content__description .content p > span {
+.entity-content__description .content span {
   cursor: pointer;
   border-radius: 3px;
   padding: 2px;
   color: #7289da !important;
   background: rgba(114, 137, 218, 0.1) !important;
 }
-.entity-content__description .content p > span:hover {
+.entity-content__description .content span:hover {
   color: #fff !important;
   background: #7289da !important;
 }
