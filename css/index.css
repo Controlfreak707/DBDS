@@ -18,6 +18,12 @@
   margin-left: 4px;
   opacity: 0.6;
 }
+.entity-content__description .content .h1-blurple {
+  color: #7289da !important;
+}
+.entity-content__description .content .h1-blurple:after {
+  background-color: #7289da;
+}
 .entity-content__description .content .h1-green {
   color: #43b581 !important;
 }
