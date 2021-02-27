@@ -16,6 +16,7 @@
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
+  background: none !important;
 }
 .entity-content__description .content .alert-box.info {
   background: #7289da1a;
