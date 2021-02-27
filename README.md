@@ -19,18 +19,18 @@ Firstly, you need to include this at the top of your bot description:
 After that, you can style your description like so:
 
 ### Headers
-```md
+```html
 <h1 class="h1-{colour}">Whatever you put here will be capitalized.</h1>
 ```
 Replace `{colour}` with `green|yellow|red`.
 
 ### Mentions
-```md
+```html
 <span>@Mention</span>
 ```
 
 ### Inline code
-```md
+```html
 <code>var message = "Hello World!";</code>
 ```
 OR
