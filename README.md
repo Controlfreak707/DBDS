@@ -6,7 +6,7 @@ DBDS (or Discord Bot Description Styling) is a bit of CSS that I use to make the
 
 ## What does it look like?
 As of now, this:
-![Preview](Preview.png)
+![Preview](images/Preview.png)
 
 ## How can I use DBDS?
 Firstly, you need to include this at the top of your bot description:
