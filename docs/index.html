@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="icon" href="path/to/fav.png" />
     <title>DBDS Documentation</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    Coming soon... maybe!
+  <body
+    class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
+    data-dm-shortcut-enabled="true"
+    data-sidebar-shortcut-enabled="true"
+    data-set-preferred-mode-onload="true"
+  >
+    <div
+      class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom"
+      data-sidebar-type="overlayed-sm-and-down"
+    >
+      <nav class="navbar"></nav>
+
+      <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+
+      <div class="sidebar"></div>
+
+      <div class="content-wrapper"></div>
+
+      <nav class="navbar navbar-fixed-bottom"></nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
   </body>
 </html>
