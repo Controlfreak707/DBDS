@@ -11,7 +11,10 @@ const App = () => (
   <div class="page-wrapper with-navbar with-sidebar">
     <Navbar></Navbar>
     <div class="sidebar"></div>
-    <div class="content-wrapper">Finally I got it to fucking work lmao</div>
+    <div class="content-wrapper">
+      I might give up and go back to working on wiki pages this is super fucking
+      anoying to make
+    </div>
   </div>
 );
 
