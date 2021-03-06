@@ -1,17 +1,45 @@
 <div class="sidebar-menu">
   <h5 class="sidebar-title">Getting started</h5>
   <div class="sidebar-divider"></div>
-  <a href="../getting-started/introduction" class="sidebar-link active"
+  <a
+    href="../getting-started/introduction"
+    id="sidebar-introduction"
+    class="sidebar-link"
     >Introduction</a
   >
-  <a href="../getting-started/installation" class="sidebar-link"
+  <a
+    href="../getting-started/installation"
+    id="sidebar-installation"
+    class="sidebar-link"
     >Installation</a
   >
   <br />
   <h5 class="sidebar-title">Styled Elements</h5>
   <div class="sidebar-divider"></div>
-  <a href="../styled-elements/header" class="sidebar-link">Header</a>
-  <a href="../styled-elements/alert-box" class="sidebar-link">Alert Box</a>
-  <a href="../styled-elements/mention" class="sidebar-link">Mention</a>
-  <a href="../styled-elements/inline-code" class="sidebar-link">Inline Code</a>
+  <a href="../styled-elements/header" id="sidebar-header" class="sidebar-link"
+    >Header</a
+  >
+  <a
+    href="../styled-elements/alert-box"
+    id="sidebar-alert-box"
+    class="sidebar-link"
+    >Alert Box</a
+  >
+  <a href="../styled-elements/mention" id="sidebar-mention" class="sidebar-link"
+    >Mention</a
+  >
+  <a
+    href="../styled-elements/inline-code"
+    id="sidebar-inline-code"
+    class="sidebar-link"
+    >Inline Code</a
+  >
 </div>
+
+<script>
+  $(
+    `#sidebar-${location.href
+      .substring(location.href.lastIndexOf("/") + 1)
+      .replace(".html", "")}`
+  ).addClass("active");
+</script>
