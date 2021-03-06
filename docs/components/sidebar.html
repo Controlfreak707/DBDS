@@ -40,6 +40,7 @@
   $(
     `#sidebar-${location.href
       .substring(location.href.lastIndexOf("/") + 1)
-      .replace(".html", "")}`
+      .replace(".html", "")
+      .split("#")}`
   ).addClass("active");
 </script>
