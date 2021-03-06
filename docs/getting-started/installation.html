@@ -25,6 +25,18 @@
       rel="stylesheet"
     />
 
+    <!-- Documentation styles -->
+    <link
+      href="https://www.gethalfmoon.com/static/site/css/documentation-styles-4.css"
+      rel="stylesheet"
+    />
+
+    <!-- Highlight.js -->
+    <link
+      href="https://www.gethalfmoon.com/static/site/css/halfmoon-highlight-js-theme.css"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -65,9 +77,52 @@
         });
       </script>
 
-      <div class="content-wrapper"></div>
+      <div class="content-wrapper">
+        <div class="content">
+          <h1 class="content-title font-size-22">Installation</h1>
+          DBDS's installation proccess is extremely simple
+          <strike
+            >so I'm not really sure why I made an entire page for it</strike
+          >.
+          <br />
+          All you need to do is include the following at the top of your bot
+          description:
+        </div>
+        <div class="card p-0">
+          <div class="code-header rounded-top border-top-0">
+            Include DBDS in your bot description
+          </div>
+          <div class="code-container">
+            <button
+              class="btn btn-sm copy-button"
+              type="button"
+              onclick="copyCode(this, 'cdn-code-block')"
+            >
+              <i class="fa fa-clipboard" aria-hidden="true"></i> Copy
+            </button>
+            <pre
+              class="m-0"
+            ><code class="html hljs xml" id="cdn-code-block"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://raw.githack.com/Controlfreak707/DBDS/main/css/index.css"</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> /&gt;</span></code></pre>
+          </div>
+        </div>
+        <div class="content">
+          And that's it! Move onto the next page to start learning how to take
+          advantage of your newly acquired superpowers!
+        </div>
+        <div class="content">
+          <hr class="mb-20" />
+          <div class="text-right font-size-16">
+            Up next:
+            <a href="../styled-elements/header" class="hyperlink ml-5">
+              Header
+              <i class="fa fa-angle-right ml-5" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <script src="../index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
   </body>
 </html>
