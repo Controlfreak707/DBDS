@@ -33,6 +33,13 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+
+    <!--jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body
     class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
@@ -44,41 +51,12 @@
       class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom"
       data-sidebar-type="overlayed-sm-and-down"
     >
-      <nav class="navbar">
-        <div class="navbar-content">
-          <button
-            class="btn btn-action"
-            type="button"
-            onclick="halfmoon.toggleSidebar()"
-          >
-            <i class="fa fa-bars" aria-hidden="true"></i>
-            <span class="sr-only">Toggle sidebar</span>
-          </button>
-        </div>
-
-        <a href="/" class="navbar-brand">DBDS</a>
-
-        <div class="navbar-content ml-auto">
-          <button
-            class="btn btn-action mr-5"
-            type="button"
-            onclick="halfmoon.toggleDarkMode()"
-            aria-label="Toggle dark mode"
-          >
-            <i class="far fa-moon" aria-hidden="true"></i>
-          </button>
-
-          <a
-            href="https://github.com/Controlfreak707/DBDS"
-            target="_blank"
-            class="btn"
-            role="button"
-          >
-            <i class="fab fa-github" aria-hidden="true"></i>
-            GitHub
-          </a>
-        </div>
-      </nav>
+      <nav id="navbar" class="navbar"></nav>
+      <script>
+        $(function () {
+          $("#navbar").load("components/navbar.html");
+        });
+      </script>
 
       <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
 
