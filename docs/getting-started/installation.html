@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Chrome, Firefox OS and Opera mobile address bar theming -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- iOS Safari mobile address bar theming -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+
+    <!-- Title -->
+    <title>Installation - DBDS Documentation</title>
+
+    <!-- Halfmoon CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body
+    class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
+    data-dm-shortcut-enabled="true"
+    data-sidebar-shortcut-enabled="true"
+    data-set-preferred-mode-onload="true"
+  >
+    <div
+      class="page-wrapper with-navbar with-sidebar"
+      data-sidebar-type="overlayed-sm-and-down"
+    >
+      <nav id="navbar" class="navbar"></nav>
+      <script>
+        $(function () {
+          $("#navbar").load("../components/navbar.html");
+        });
+      </script>
+
+      <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+      <div class="sidebar"></div>
+      <script>
+        $(function () {
+          $(".sidebar").load("../components/sidebar.html");
+        });
+      </script>
+
+      <div class="content-wrapper"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+  </body>
+</html>
