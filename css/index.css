@@ -1,4 +1,5 @@
-.entity-content__description .content .alert-box {
+.entity-content__description .content .alert-box,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .alert-box {
   margin: 20px 0;
   padding: 10px;
   border-radius: 5px;
@@ -6,7 +7,8 @@
   font-weight: 300;
   line-height: 22px;
 }
-.entity-content__description .content .alert-box blockquote {
+.entity-content__description .content .alert-box blockquote,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .alert-box blockquote {
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,20 +20,24 @@
   vertical-align: baseline;
   background: none !important;
 }
-.entity-content__description .content .alert-box.info {
+.entity-content__description .content .alert-box.info,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .alert-box.info {
   background: #7289da1a;
   border: 2px solid #7289da80;
 }
-.entity-content__description .content .alert-box.warn {
+.entity-content__description .content .alert-box.warn,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .alert-box.warn {
   background: #faa61a1a;
   border: 2px solid #faa61a80;
 }
-.entity-content__description .content .alert-box.danger {
+.entity-content__description .content .alert-box.danger,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .alert-box.danger {
   background: #f047471a;
   border: 2px solid #f0474780;
 }
 
-.entity-content__description .content h1 {
+.entity-content__description .content h1,
+.OverviewView__OverviewSection-sc-124maaj-0 .content h1 {
   margin-top: 20px !important;
   font-weight: 700;
   line-height: 20px;
@@ -44,39 +50,49 @@
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
 }
-.entity-content__description .content h1:after {
+.entity-content__description .content h1:after,
+.OverviewView__OverviewSection-sc-124maaj-0 .content h1:after {
   content: "";
   height: 1px;
   flex: 1 1 auto;
   margin-left: 4px;
   opacity: 0.6;
 }
-.entity-content__description .content .h1-blurple {
+.entity-content__description .content .h1-blurple,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-blurple {
   color: #7289da !important;
 }
-.entity-content__description .content .h1-blurple:after {
+.entity-content__description .content .h1-blurple:after,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-blurple:after {
   background-color: #7289da;
 }
-.entity-content__description .content .h1-green {
+.entity-content__description .content .h1-green,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-green {
   color: #43b581 !important;
 }
-.entity-content__description .content .h1-green:after {
+.entity-content__description .content .h1-green:after,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-green:after {
   background-color: #43b581;
 }
-.entity-content__description .content .h1-yellow {
+.entity-content__description .content .h1-yellow,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-yellow {
   color: #faa61a !important;
 }
-.entity-content__description .content .h1-yellow:after {
+.entity-content__description .content .h1-yellow:after,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-yellow:after {
   background-color: #faa61a;
 }
-.entity-content__description .content .h1-red {
+.entity-content__description .content .h1-red,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-red {
   color: #f04747 !important;
 }
-.entity-content__description .content .h1-red:after {
+.entity-content__description .content .h1-red:after,
+.OverviewView__OverviewSection-sc-124maaj-0 .content .h1-red:after {
   background-color: #f04747;
 }
 
-.entity-content__description .content code {
+.entity-content__description .content code,
+.OverviewView__OverviewSection-sc-124maaj-0 .content code {
   padding: 0.2em;
   margin: 0.2em 0;
   border-radius: 3px;
@@ -87,14 +103,16 @@
   border: none;
 }
 
-.entity-content__description .content span {
+.entity-content__description .content span,
+.OverviewView__OverviewSection-sc-124maaj-0 .content span {
   cursor: pointer;
   border-radius: 3px;
   padding: 2px;
   color: #7289da !important;
   background: rgba(114, 137, 218, 0.1) !important;
 }
-.entity-content__description .content span:hover {
+.entity-content__description .content span:hover,
+.OverviewView__OverviewSection-sc-124maaj-0 .content span:hover {
   color: #fff !important;
   background: #7289da !important;
 }
@@ -103,22 +121,27 @@
   border-radius: 8px;
 }
 
-.entity-content__description {
+.entity-content__description,
+.OverviewView__OverviewSection-sc-124maaj-0 {
   padding: 25px !important;
   border-radius: 8px !important;
   background: #23272a !important;
   border: none !important;
 }
-.entity-content__description .content * {
+.entity-content__description .content *,
+.OverviewView__OverviewSection-sc-124maaj-0 .content * {
   transition: 0.1s;
   color: white !important;
 }
-.entity-content__description .content img {
+.entity-content__description .content img,
+.OverviewView__OverviewSection-sc-124maaj-0 .content img {
   border-radius: 8px;
 }
 
-.entity-content__description::after {
+.entity-content__description::after,
+.OverviewView__OverviewSection-sc-124maaj-0::after {
   content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
+  color: #72767d;
 }
 
 /*# sourceMappingURL=index.css.map */

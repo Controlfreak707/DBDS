@@ -6,27 +6,30 @@
 $border-radius: 8px;
 
 .entity-header__image {
-  border-radius: $border-radius;
+	border-radius: $border-radius;
 }
 
-.entity-content__description {
-  padding: 25px !important;
-  border-radius: $border-radius !important;
-  background: #23272a !important;
-  border: none !important;
+.entity-content__description,
+.OverviewView__OverviewSection-sc-124maaj-0 {
+	padding: 25px !important;
+	border-radius: $border-radius !important;
+	background: #23272a !important;
+	border: none !important;
 
-  .content {
-    * {
-      transition: 0.1s;
-      color: white !important;
-    }
+	.content {
+		* {
+			transition: 0.1s;
+			color: white !important;
+		}
 
-    img {
-      border-radius: $border-radius;
-    }
-  }
+		img {
+			border-radius: $border-radius;
+		}
+	}
 }
 
-.entity-content__description::after {
-  content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
+.entity-content__description::after,
+.OverviewView__OverviewSection-sc-124maaj-0::after {
+	content: "Styled with DBDS (github.com/Controlfreak707/DBDS)";
+	color: #72767d;
 }
